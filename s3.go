@@ -1,12 +1,13 @@
 package gostorages
 
 import (
-	"github.com/mitchellh/goamz/aws"
-	"github.com/mitchellh/goamz/s3"
 	"io"
 	"io/ioutil"
 	"mime"
 	"time"
+
+	"github.com/lizdeika/goamz/s3"
+	"github.com/mitchellh/goamz/aws"
 )
 
 var ACLs = map[string]s3.ACL{
