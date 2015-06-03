@@ -6,8 +6,8 @@ import (
 	"mime"
 	"time"
 
+	"github.com/lizdeika/goamz/aws"
 	"github.com/lizdeika/goamz/s3"
-	"github.com/mitchellh/goamz/aws"
 )
 
 var ACLs = map[string]s3.ACL{
