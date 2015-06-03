@@ -82,8 +82,8 @@ In the following example, I'm assuming my bucket is located in european region.
     import (
         "fmt"
         "github.com/thoas/gostorages"
-        "github.com/mitchellh/goamz/aws"
-        "github.com/mitchellh/goamz/s3"
+        "github.com/lizdeika/goamz/aws"
+        "github.com/lizdeika/goamz/s3"
         "os"
     )
 
